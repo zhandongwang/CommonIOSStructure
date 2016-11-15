@@ -14,6 +14,8 @@
 		234528351DDAE95D0014B2C2 /* CommonStructureUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 234528341DDAE95D0014B2C2 /* CommonStructureUITests.m */; };
 		234528901DDB00610014B2C2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 234528741DDB00610014B2C2 /* AppDelegate.m */; };
 		234528911DDB00610014B2C2 /* ZDWTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 234528791DDB00610014B2C2 /* ZDWTabBarViewController.m */; };
+		23E60CA21DDB026500FD24D2 /* ZDWHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23E60CA11DDB026500FD24D2 /* ZDWHomeViewController.m */; };
+		23E60CA51DDB028400FD24D2 /* ZDWMineUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23E60CA41DDB028400FD24D2 /* ZDWMineUIViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,10 @@
 		234528741DDB00610014B2C2 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		234528781DDB00610014B2C2 /* ZDWTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDWTabBarViewController.h; sourceTree = "<group>"; };
 		234528791DDB00610014B2C2 /* ZDWTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDWTabBarViewController.m; sourceTree = "<group>"; };
+		23E60CA01DDB026500FD24D2 /* ZDWHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDWHomeViewController.h; sourceTree = "<group>"; };
+		23E60CA11DDB026500FD24D2 /* ZDWHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDWHomeViewController.m; sourceTree = "<group>"; };
+		23E60CA31DDB028400FD24D2 /* ZDWMineUIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDWMineUIViewController.h; sourceTree = "<group>"; };
+		23E60CA41DDB028400FD24D2 /* ZDWMineUIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDWMineUIViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -214,6 +220,8 @@
 		2345287D1DDB00610014B2C2 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				23E60CA01DDB026500FD24D2 /* ZDWHomeViewController.h */,
+				23E60CA11DDB026500FD24D2 /* ZDWHomeViewController.m */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -260,6 +268,8 @@
 		234528831DDB00610014B2C2 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				23E60CA31DDB028400FD24D2 /* ZDWMineUIViewController.h */,
+				23E60CA41DDB028400FD24D2 /* ZDWMineUIViewController.m */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -490,7 +500,9 @@
 			files = (
 				234528901DDB00610014B2C2 /* AppDelegate.m in Sources */,
 				234528111DDAE95D0014B2C2 /* main.m in Sources */,
+				23E60CA51DDB028400FD24D2 /* ZDWMineUIViewController.m in Sources */,
 				234528911DDB00610014B2C2 /* ZDWTabBarViewController.m in Sources */,
+				23E60CA21DDB026500FD24D2 /* ZDWHomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -720,6 +732,7 @@
 				2345283B1DDAE95D0014B2C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2345283C1DDAE95D0014B2C2 /* Build configuration list for PBXNativeTarget "CommonStructureTests" */ = {
 			isa = XCConfigurationList;
@@ -728,6 +741,7 @@
 				2345283E1DDAE95D0014B2C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2345283F1DDAE95D0014B2C2 /* Build configuration list for PBXNativeTarget "CommonStructureUITests" */ = {
 			isa = XCConfigurationList;
@@ -736,6 +750,7 @@
 				234528411DDAE95D0014B2C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

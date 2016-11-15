@@ -7,6 +7,8 @@
 //
 
 #import "ZDWTabBarViewController.h"
+#import "ZDWHomeViewController.h"
+#import "ZDWMineUIViewController.h"
 
 @interface ZDWTabBarViewController ()
 
@@ -17,6 +19,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    [self setUpChildViewControllers];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -28,15 +31,18 @@
 
 - (void)setUpChildViewControllers
 {
+    ZDWHomeViewController *homeVC = [[ZDWHomeViewController alloc] init];
+    [self setUpViewController:homeVC image:[UIImage imageNamed:@""]];
     
+    ZDWMineUIViewController *mineVC = [[ZDWMineUIViewController alloc] init];
+    [self setUpViewController:mineVC image:[UIImage imageNamed:@""]];
 }
 
-- (void)setUpViewController:(UIViewController *)viewController title:(NSString *)title image:(UIImage *)image
+- (void)setUpViewController:(UIViewController *)viewController  image:(UIImage *)image
 {
     UINavigationController *navVC = [[UINavigationController alloc] initWithRootViewController:viewController];
-    navVC.title = title;
     navVC.tabBarItem.image = image;
-    viewController.navigationItem.title = title;
+    
     [self addChildViewController:navVC];
 }
 
