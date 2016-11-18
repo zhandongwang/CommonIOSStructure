@@ -1,0 +1,15 @@
+//
+//  CommonStrucrture-Prefix.pch
+//  CommonStructure
+//
+//  Created by 王战东 on 16/11/18.
+//  Copyright © 2016年 zhandongwang. All rights reserved.
+//
+
+#ifndef CommonStrucrture_Prefix_pch
+#define CommonStrucrture_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* CommonStrucrture_Prefix_pch */
