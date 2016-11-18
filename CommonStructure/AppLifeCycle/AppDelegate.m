@@ -28,8 +28,6 @@
     self.window.rootViewController = tabBarVC;
     [self.window makeKeyAndVisible];
     
-    CGFloat width = SCREEN_WIDTH;
-    
     return YES;
 }
 

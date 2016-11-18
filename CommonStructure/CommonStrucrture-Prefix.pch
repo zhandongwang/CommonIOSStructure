@@ -15,5 +15,6 @@
 #import <Foundation/Foundation.h>
 
 #import "AppMacro.h"
+#import "UIColor+RGB.h"
 
 #endif /* CommonStrucrture_Prefix_pch */

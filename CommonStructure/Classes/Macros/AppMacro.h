@@ -22,4 +22,13 @@
 //设备参数
 #define SYSTEM_VERSION              [[[UIDevice currentDevice] systemVersion] floatValue]
 
+/*
+ * 通过RGB创建UIColor
+ */
+#define RGBCOLOR(r,g,b) [UIColor colorWithRed:(r)/255.0f green:(g)/255.0f blue:(b)/255.0f alpha:1]
+#define RGBACOLOR(r,g,b,a) [UIColor colorWithRed:(r)/255.0f green:(g)/255.0f blue:(b)/255.0f alpha:(a)]
+
+
+
+
 #endif /* AppMacro_h */
