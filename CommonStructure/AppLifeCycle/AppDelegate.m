@@ -8,9 +8,13 @@
 
 #import "AppDelegate.h"
 #import "ZDWTabBarViewController.h"
+#import "JPUSHService.h"
+#import <AdSupport/AdSupport.h>
+#ifdef NSFoundationVersionNumber_iOS_9_x_Max
+#import <UserNotifications/UserNotifications.h>
+#endif
 
-
-@interface AppDelegate ()
+@interface AppDelegate ()<JPUSHRegisterDelegate>
 
 @end
 
@@ -54,5 +58,13 @@
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
 
+#pragma mark - JPUSHRegisterDelegate
 
+- (void)jpushNotificationCenter:(UNUserNotificationCenter *)center willPresentNotification:(UNNotification *)notification withCompletionHandler:(void (^)(NSInteger options))completionHandler {
+    
+}
+
+- (void)jpushNotificationCenter:(UNUserNotificationCenter *)center didReceiveNotificationResponse:(UNNotificationResponse *)response withCompletionHandler:(void(^)())completionHandler {
+    
+}
 @end
