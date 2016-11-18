@@ -14,14 +14,14 @@
 {
 #ifdef DEBUG
 #ifndef __clang_analyzer__
-    if(anObject == nil) {
+    if(!anObject) {
         NSLog(@"添加到数组中的对象为nil...");
         return;
     }
     [self addObject:anObject];
 #endif
 #else
-    if(anObject != nil) {
+    if(anObject) {
         [self addObject:anObject];
     }
 #endif
@@ -31,7 +31,7 @@
 {
 #ifdef DEBUG
 #ifndef __clang_analyzer__
-    if(anObject == nil) {
+    if(!anObject) {
         NSLog(@"添加到数组中的对象为nil...");
         return;
     }
@@ -42,7 +42,7 @@
     [self insertObject:anObject atIndex:index];
 #endif
 #else
-    if(anObject != nil && index < [self count]) {
+    if(anObject && index < [self count]) {
         [self insertObject:anObject atIndex:index];
     }
 #endif

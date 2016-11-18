@@ -11,5 +11,6 @@
 
 #import "UIColor+RGB.h"
 #import "NSMutableArray+Safe.h"
+#import "NSMutableDictionary+Safe.h"
 
 #endif /* ZDWExtentions_h */

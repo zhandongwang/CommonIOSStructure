@@ -23,6 +23,7 @@
 		23013C3D1DDEE2540015520D /* ZDWTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23013C3C1DDEE2540015520D /* ZDWTabBarViewController.m */; };
 		23013C441DDEE35C0015520D /* UIColor+RGB.m in Sources */ = {isa = PBXBuildFile; fileRef = 23013C431DDEE35C0015520D /* UIColor+RGB.m */; };
 		23013C471DDEECFB0015520D /* NSMutableArray+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 23013C461DDEECFB0015520D /* NSMutableArray+Safe.m */; };
+		23013C4B1DDEFFAF0015520D /* NSMutableDictionary+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 23013C4A1DDEFFAF0015520D /* NSMutableDictionary+Safe.m */; };
 		234528111DDAE95D0014B2C2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 234528101DDAE95D0014B2C2 /* main.m */; };
 		2345281C1DDAE95D0014B2C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2345281B1DDAE95D0014B2C2 /* Assets.xcassets */; };
 		2345281F1DDAE95D0014B2C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2345281D1DDAE95D0014B2C2 /* LaunchScreen.storyboard */; };
@@ -76,6 +77,8 @@
 		23013C451DDEECFB0015520D /* NSMutableArray+Safe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Safe.h"; sourceTree = "<group>"; };
 		23013C461DDEECFB0015520D /* NSMutableArray+Safe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Safe.m"; sourceTree = "<group>"; };
 		23013C481DDEFAF80015520D /* ZDWExtentions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDWExtentions.h; sourceTree = "<group>"; };
+		23013C491DDEFFAF0015520D /* NSMutableDictionary+Safe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+Safe.h"; sourceTree = "<group>"; };
+		23013C4A1DDEFFAF0015520D /* NSMutableDictionary+Safe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+Safe.m"; sourceTree = "<group>"; };
 		2345280C1DDAE95D0014B2C2 /* CommonStructure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CommonStructure.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		234528101DDAE95D0014B2C2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2345281B1DDAE95D0014B2C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -181,6 +184,8 @@
 				23013C431DDEE35C0015520D /* UIColor+RGB.m */,
 				23013C451DDEECFB0015520D /* NSMutableArray+Safe.h */,
 				23013C461DDEECFB0015520D /* NSMutableArray+Safe.m */,
+				23013C491DDEFFAF0015520D /* NSMutableDictionary+Safe.h */,
+				23013C4A1DDEFFAF0015520D /* NSMutableDictionary+Safe.m */,
 				23013C481DDEFAF80015520D /* ZDWExtentions.h */,
 			);
 			path = Extentions;
@@ -664,6 +669,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23013C4B1DDEFFAF0015520D /* NSMutableDictionary+Safe.m in Sources */,
 				23013C471DDEECFB0015520D /* NSMutableArray+Safe.m in Sources */,
 				234528901DDB00610014B2C2 /* AppDelegate.m in Sources */,
 				23013C441DDEE35C0015520D /* UIColor+RGB.m in Sources */,
