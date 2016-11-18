@@ -21,6 +21,14 @@
     // Do any additional setup after loading the view.
     self.title = @"首页";
     [self.view addSubview:self.customView];
+    
+    NSMutableArray *array = [[NSMutableArray alloc] initWithCapacity:3];
+    [array safeAddObject:@1];
+    [array safeInsertObject:@2 atIndex:0];
+    NSLog(@"%@", array);
+    
+    NSLog(@"%@", [array safeObjectAtIndex:1]);
+    [array safeRemoveObjectAtIndex:2];
 
 }
 

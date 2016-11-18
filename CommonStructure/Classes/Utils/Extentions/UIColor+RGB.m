@@ -20,4 +20,5 @@
                             blue:((float)  (rgbValue & 0xFF))            / 0xFF
                            alpha:alpha];
 }
+
 @end
