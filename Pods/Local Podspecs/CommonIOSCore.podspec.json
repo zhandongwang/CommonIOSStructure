@@ -1,0 +1,20 @@
+{
+  "name": "CommonIOSCore",
+  "version": "0.0.2",
+  "summary": "CommonIOSCore contains somme common tools",
+  "description": "this podspec will include all common tools that used in CommonIOSStructure",
+  "homepage": "https://github.com/zhandongwang/CommonIOSCore",
+  "license": "MIT",
+  "authors": {
+    "fengli": "fengli@2dfire.com"
+  },
+  "source": {
+    "git": "https://github.com/zhandongwang/CommonIOSCore.git",
+    "tag": "0.0.2"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "source_files": "Pod/Classes/**/*",
+  "public_header_files": "Pod/Classes/NSBundle+Podspec.h"
+}

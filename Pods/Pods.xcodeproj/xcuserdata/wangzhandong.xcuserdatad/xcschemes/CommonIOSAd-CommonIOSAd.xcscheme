@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '565356AFAA3A34597FD5BDCC110A05EC'
+               BlueprintIdentifier = 'FD178957A266F12753F4B34C67C346AC'
                BlueprintName = 'CommonIOSAd-CommonIOSAd'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'CommonIOSAd.bundle'>

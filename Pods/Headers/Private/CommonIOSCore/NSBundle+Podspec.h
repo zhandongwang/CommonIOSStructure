@@ -1,0 +1,1 @@
+../../../CommonIOSCore/Pod/Classes/NSBundle+Podspec.h

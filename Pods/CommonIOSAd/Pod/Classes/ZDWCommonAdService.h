@@ -11,5 +11,6 @@
 @interface ZDWCommonAdService : NSObject
 
 + (instancetype)sharedInstance;
-- (void)testMethod;
+- (UIView *)commonAdView;
+
 @end

@@ -1,0 +1,1 @@
+../../../CommonIOSCore/Pod/Classes/UIImage+Podspec.h
