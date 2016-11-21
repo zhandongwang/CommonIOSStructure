@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   
   s.source_files = 'Pod/Classes/**/*.{h,m}'
   s.resource_bundles = {
-     'CommonIOSAd' => ['Pod/Assets/**/*.png']
+     'CommonIOSAd' => ['Pod/Assets/*']
    }
 
    s.public_header_files = 'Pod/Classes/*.h'
