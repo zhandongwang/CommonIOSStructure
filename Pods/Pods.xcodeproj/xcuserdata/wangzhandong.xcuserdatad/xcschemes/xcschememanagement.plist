@@ -9,6 +9,16 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>CommonIOSAd-CommonIOSAd.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>CommonIOSAd.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>MBProgressHUD.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -47,12 +57,27 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>323945E53E187DCB88AFB24B9E8EE7DE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>448E18EC3E3A9898BABCDF610A79A7D9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>496643A0C6647A237EA495B023CFA1A7</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>5409D1DD3AEAAE9AF6C4E1C139D10422</key>
+		<key>565356AFAA3A34597FD5BDCC110A05EC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8E92609B781B6561D5AE94B367C84CDB</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -67,12 +92,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>AAAFB3F5CDFCD831EF52531B55B811E2</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>D6FF0BFBDFC2EEFB3FF59E9ABC30098D</key>
+		<key>D4C4FAAD3B47FBD7098075E35D8B5D94</key>
 		<dict>
 			<key>primary</key>
 			<true/>

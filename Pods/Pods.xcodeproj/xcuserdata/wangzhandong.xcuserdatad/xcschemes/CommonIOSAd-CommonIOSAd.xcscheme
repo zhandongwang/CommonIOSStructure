@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '8E92609B781B6561D5AE94B367C84CDB'
-               BlueprintName = 'UIAlertView+Blocks'
+               BlueprintIdentifier = '565356AFAA3A34597FD5BDCC110A05EC'
+               BlueprintName = 'CommonIOSAd-CommonIOSAd'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'libUIAlertView+Blocks.a'>
+               BuildableName = 'CommonIOSAd.bundle'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

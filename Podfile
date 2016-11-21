@@ -1,3 +1,5 @@
+source 'https://github.com/zhandongwang/CommonIOSStructure.git'
+source 'https://github.com/CocoaPods/Specs.git'
 
 target 'CommonStructure’ do
     platform :ios, '7.0'
@@ -8,4 +10,9 @@ target 'CommonStructure’ do
     pod 'AFNetworking'
     pod 'UIAlertView+Blocks'
 
+    #私有库
+    pod 'CommonIOSAd', :path => '~/Documents/Projects/CommonIOSPod/CommonIOSAd'
+# pod 'CommonIOSAd', '~> 0.0.1'
+
 end
+                                                                                            

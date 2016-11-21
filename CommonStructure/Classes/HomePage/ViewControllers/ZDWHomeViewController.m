@@ -20,7 +20,10 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.title = @"首页";
-    [self.view addSubview:self.customView];
+    UIImageView *adView = [[ZDWCommonAdService sharedInstance] imageView];
+    [adView setImage:[UIImage imageNamed:@"seat"]];
+    [self.view addSubview:adView];
+    
 }
 
 - (void)didReceiveMemoryWarning {
