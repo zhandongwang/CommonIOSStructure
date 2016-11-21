@@ -1,1 +1,1 @@
-../../../../../CommonIOSPod/CommonIOSAd/Pod/Classes/UIImage+Ad.h
+../../../../../CommonIOSPod/CommonIOSAd/Pod/Classes/Category/UIImage+Ad.h

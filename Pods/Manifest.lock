@@ -14,7 +14,7 @@ PODS:
   - AFNetworking/Serialization (3.1.0)
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
-  - CommonIOSAd (0.0.7):
+  - CommonIOSAd (0.1.4):
     - CommonIOSCore (~> 0.0.3)
   - CommonIOSCore (0.0.3)
   - Masonry (0.6.4)
@@ -41,7 +41,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
-  CommonIOSAd: d910608116108a8511d8a98a5904870fa14732c9
+  CommonIOSAd: 48b11513b24a712322a47ae649ab029abf661af1
   CommonIOSCore: 6dc8a80be5d438b4edc3d1e400e941cdb287c102
   Masonry: 281802d04d787ea2973179ee8bcb50500579ede2
   MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
@@ -49,6 +49,6 @@ SPEC CHECKSUMS:
   SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
   UIAlertView+Blocks: a46c99c5144f6c5dbc7d62fd2a0678daceec89a3
 
-PODFILE CHECKSUM: bb12c3d9cbd9ea4f582ab28711f3096b92695a6d
+PODFILE CHECKSUM: 014f66c3a7b241db3c938a9891ae4844129fed5a
 
 COCOAPODS: 1.1.1

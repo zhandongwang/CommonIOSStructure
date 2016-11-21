@@ -12,7 +12,7 @@ target 'CommonStructure’ do
 
     #私有库
     pod 'CommonIOSAd', :path => '~/Documents/Projects/CommonIOSPod/CommonIOSAd'
-#pod 'CommonIOSAd', '~> 0.0.1'
+#pod 'CommonIOSAd', '~> 0.1.0'
 #    pod 'CommonIOSCore', :path => '~/Documents/Projects/CommonIOSPod/CommonIOSCore'
     pod 'CommonIOSCore', '~> 0.0.1'
 

@@ -1,1 +1,1 @@
-../../../../../CommonIOSPod/CommonIOSAd/Pod/Classes/ZDWCommonAdService.h
+../../../../../CommonIOSPod/CommonIOSAd/Pod/Classes/Base/ZDWCommonAdService.h

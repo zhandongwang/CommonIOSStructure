@@ -1,6 +1,6 @@
 {
   "name": "CommonIOSAd",
-  "version": "0.0.7",
+  "version": "0.1.4",
   "summary": "CommonIOSAd is an ad service.",
   "description": "CommonIOSAd provide the service used for Common IOS app.",
   "homepage": "https://github.com/zhandongwang/CommonIOSAd",
@@ -10,7 +10,7 @@
   },
   "source": {
     "git": "https://github.com/zhandongwang/CommonIOSAd.git",
-    "tag": "0.0.7"
+    "tag": "0.1.4"
   },
   "platforms": {
     "ios": "7.0"
@@ -18,10 +18,9 @@
   "source_files": "Pod/Classes/**/*.{h,m}",
   "resource_bundles": {
     "CommonIOSAd": [
-      "Pod/Assets/**/*.png"
+      "Pod/Assets/*"
     ]
   },
-  "public_header_files": "Pod/Classes/*.h",
   "dependencies": {
     "CommonIOSCore": [
       "~> 0.0.3"
