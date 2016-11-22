@@ -24,6 +24,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>CommonIOSRootPage.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>MBProgressHUD.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -57,6 +62,11 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>0CFA9DEE3945B6D0EF43F58D461BE419</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>175B076ED45EB1A3E40F58BA14036467</key>
 		<dict>
 			<key>primary</key>
@@ -67,17 +77,22 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>3D0654B34EE8D18677532A59079B29F2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>496643A0C6647A237EA495B023CFA1A7</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>665FFD385FB1419611321C0274B9A43F</key>
+		<key>59FA98D3334EB7938339DF32AA54226B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>6F1204DB25B14019B10980FB82B2CFFE</key>
+		<key>8DC0F416E5ECF34A24CCBF65CE7F3D89</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -88,11 +103,6 @@
 			<true/>
 		</dict>
 		<key>9E033EDB5EC0819481B0546434FA577B</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>D5E2F1E86973D6CA983B602D3A514AF5</key>
 		<dict>
 			<key>primary</key>
 			<true/>

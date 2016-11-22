@@ -1,1 +1,1 @@
-../../../../../CommonIOSPod/CommonIOSAd/Pod/Classes/Category/NSBundle+AdBundle.h
+../../../CommonIOSAd/Pod/Classes/Category/NSBundle+AdBundle.h

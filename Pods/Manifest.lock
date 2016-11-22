@@ -17,6 +17,7 @@ PODS:
   - CommonIOSAd (0.1.4):
     - CommonIOSCore (~> 0.0.3)
   - CommonIOSCore (0.0.3)
+  - CommonIOSRootPage (0.1.7)
   - Masonry (0.6.4)
   - MBProgressHUD (0.9.2)
   - MJRefresh (2.4.12)
@@ -27,8 +28,9 @@ PODS:
 
 DEPENDENCIES:
   - AFNetworking
-  - CommonIOSAd (from `~/Documents/Projects/CommonIOSPod/CommonIOSAd`)
+  - CommonIOSAd (~> 0.1.0)
   - CommonIOSCore (~> 0.0.1)
+  - CommonIOSRootPage (from `~/Documents/Projects/CommonIOSPod/CommonIOSRootPage`)
   - Masonry (~> 0.6.2)
   - MBProgressHUD (~> 0.9.1)
   - MJRefresh (~> 2.4.7)
@@ -36,19 +38,20 @@ DEPENDENCIES:
   - UIAlertView+Blocks
 
 EXTERNAL SOURCES:
-  CommonIOSAd:
-    :path: ~/Documents/Projects/CommonIOSPod/CommonIOSAd
+  CommonIOSRootPage:
+    :path: ~/Documents/Projects/CommonIOSPod/CommonIOSRootPage
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
-  CommonIOSAd: 48b11513b24a712322a47ae649ab029abf661af1
+  CommonIOSAd: 5c49130306eb24f1cd66549e4b47144efd2b1ed5
   CommonIOSCore: 6dc8a80be5d438b4edc3d1e400e941cdb287c102
+  CommonIOSRootPage: 31b5cf4f236a8de28f36f39bc2d003913506b0d0
   Masonry: 281802d04d787ea2973179ee8bcb50500579ede2
   MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
   MJRefresh: ca8e9589895977df32d379d46e6b8a5450b3ff44
   SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
   UIAlertView+Blocks: a46c99c5144f6c5dbc7d62fd2a0678daceec89a3
 
-PODFILE CHECKSUM: 014f66c3a7b241db3c938a9891ae4844129fed5a
+PODFILE CHECKSUM: 808ddc0c351323b80d260e4c1aa26072deab8f3d
 
 COCOAPODS: 1.1.1

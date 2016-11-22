@@ -11,10 +11,12 @@ target 'CommonStructure’ do
     pod 'UIAlertView+Blocks'
 
     #私有库
-    pod 'CommonIOSAd', :path => '~/Documents/Projects/CommonIOSPod/CommonIOSAd'
-#pod 'CommonIOSAd', '~> 0.1.0'
+#pod 'CommonIOSAd', :path => '~/Documents/Projects/CommonIOSPod/CommonIOSAd'
+    pod 'CommonIOSAd', '~> 0.1.0'
 #    pod 'CommonIOSCore', :path => '~/Documents/Projects/CommonIOSPod/CommonIOSCore'
     pod 'CommonIOSCore', '~> 0.0.1'
+#pod 'CommonIOSRootPage', '~> 0.1.0'
+    pod 'CommonIOSRootPage', :path => '~/Documents/Projects/CommonIOSPod/CommonIOSRootPage'
 
 end
                                                                                             

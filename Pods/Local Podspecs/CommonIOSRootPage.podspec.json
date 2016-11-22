@@ -1,0 +1,19 @@
+{
+  "name": "CommonIOSRootPage",
+  "version": "0.1.7",
+  "summary": "A common rootpage for iOS.",
+  "description": "This podspec can be used as rootpage for an iOS app.",
+  "homepage": "https://github.com/zhandongwang/CommonIOSRootPage",
+  "license": "MIT",
+  "authors": {
+    "fengli": "fengli@2dfire.com"
+  },
+  "source": {
+    "git": "https://github.com/zhandongwang/CommonIOSRootPage.git",
+    "tag": "0.1.7"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "source_files": "CommonIOSRootPage/Pod/**/*.{h,m}"
+}
