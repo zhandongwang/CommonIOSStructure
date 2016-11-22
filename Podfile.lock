@@ -19,6 +19,7 @@ PODS:
   - CommonIOSCore (0.0.3)
   - Masonry (0.6.4)
   - MBProgressHUD (0.9.2)
+  - MGJRouter (0.9.1)
   - MJRefresh (2.4.12)
   - SDWebImage (3.8.2):
     - SDWebImage/Core (= 3.8.2)
@@ -31,6 +32,7 @@ DEPENDENCIES:
   - CommonIOSCore (~> 0.0.1)
   - Masonry (~> 0.6.2)
   - MBProgressHUD (~> 0.9.1)
+  - MGJRouter (~> 0.9.0)
   - MJRefresh (~> 2.4.7)
   - SDWebImage (~> 3.6)
   - UIAlertView+Blocks
@@ -45,10 +47,11 @@ SPEC CHECKSUMS:
   CommonIOSCore: 6dc8a80be5d438b4edc3d1e400e941cdb287c102
   Masonry: 281802d04d787ea2973179ee8bcb50500579ede2
   MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
+  MGJRouter: 73b7d7f9329186d670068888e56e095084208b4c
   MJRefresh: ca8e9589895977df32d379d46e6b8a5450b3ff44
   SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
   UIAlertView+Blocks: a46c99c5144f6c5dbc7d62fd2a0678daceec89a3
 
-PODFILE CHECKSUM: 014f66c3a7b241db3c938a9891ae4844129fed5a
+PODFILE CHECKSUM: e80cd5bb33377a4a6574b987fdf566326a98446e
 
 COCOAPODS: 1.1.1

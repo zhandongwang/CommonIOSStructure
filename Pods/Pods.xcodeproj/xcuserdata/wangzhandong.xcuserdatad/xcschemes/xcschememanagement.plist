@@ -29,6 +29,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>MGJRouter.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>MJRefresh.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -62,22 +67,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>1F717595A86597527EC4DFAE23E3C14E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>27B0F37FCA1046BE2244B214444A03AB</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>496643A0C6647A237EA495B023CFA1A7</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>665FFD385FB1419611321C0274B9A43F</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>6F1204DB25B14019B10980FB82B2CFFE</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -92,7 +92,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>D5E2F1E86973D6CA983B602D3A514AF5</key>
+		<key>9FCFF1AD71DA3EFB87B46B7ADA5569F0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AB18A5A8C0CF25125A81130A1300EF9E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CE7ED3798AC0899BBFD0C9C2CC21981B</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -8,6 +8,8 @@
 
 #import "ZDWHomeViewController.h"
 
+static NSString *const kTempKey = @"zdw://foo/keyword";
+
 @interface ZDWHomeViewController ()
 
 @property (nonatomic, strong) UIView *customView;
@@ -20,13 +22,21 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.title = @"首页";
-    [self.view addSubview:[[ZDWCommonAdService sharedInstance] commonAdView]];
     
+    UITapGestureRecognizer *tapGesture = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(customViewTapped:)];
+    
+    [self.customView addGestureRecognizer:tapGesture];
+    [self.view addSubview:self.customView];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void)customViewTapped:(UITapGestureRecognizer *)gestureRecognizer {
+
+    
 }
 
 - (UIView *)customView {

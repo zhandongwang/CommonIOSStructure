@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '1F717595A86597527EC4DFAE23E3C14E'
-               BlueprintName = 'SDWebImage'
+               BlueprintIdentifier = 'CE7ED3798AC0899BBFD0C9C2CC21981B'
+               BlueprintName = 'MGJRouter'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'libSDWebImage.a'>
+               BuildableName = 'libMGJRouter.a'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
