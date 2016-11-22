@@ -30,7 +30,6 @@
 		2345282A1DDAE95D0014B2C2 /* CommonStructureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 234528291DDAE95D0014B2C2 /* CommonStructureTests.m */; };
 		234528351DDAE95D0014B2C2 /* CommonStructureUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 234528341DDAE95D0014B2C2 /* CommonStructureUITests.m */; };
 		234528901DDB00610014B2C2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 234528741DDB00610014B2C2 /* AppDelegate.m */; };
-		23E60CA21DDB026500FD24D2 /* ZDWHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23E60CA11DDB026500FD24D2 /* ZDWHomeViewController.m */; };
 		23E60CA51DDB028400FD24D2 /* ZDWMineUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23E60CA41DDB028400FD24D2 /* ZDWMineUIViewController.m */; };
 		281BF4198646BD5D48F5B699 /* libPods-CommonStructure.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE43834785F5D9544D5A8260 /* libPods-CommonStructure.a */; };
 /* End PBXBuildFile section */
@@ -92,8 +91,6 @@
 		234528361DDAE95D0014B2C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		234528731DDB00610014B2C2 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		234528741DDB00610014B2C2 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		23E60CA01DDB026500FD24D2 /* ZDWHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDWHomeViewController.h; sourceTree = "<group>"; };
-		23E60CA11DDB026500FD24D2 /* ZDWHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDWHomeViewController.m; sourceTree = "<group>"; };
 		23E60CA31DDB028400FD24D2 /* ZDWMineUIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDWMineUIViewController.h; sourceTree = "<group>"; };
 		23E60CA41DDB028400FD24D2 /* ZDWMineUIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDWMineUIViewController.m; sourceTree = "<group>"; };
 		CE43834785F5D9544D5A8260 /* libPods-CommonStructure.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CommonStructure.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -276,24 +273,12 @@
 			isa = PBXGroup;
 			children = (
 				23013C3A1DDEE2540015520D /* Base */,
-				234528761DDB00610014B2C2 /* Ad */,
 				2345287A1DDB00610014B2C2 /* HomePage */,
 				2345287F1DDB00610014B2C2 /* Macros */,
 				234528801DDB00610014B2C2 /* Mine */,
-				234528851DDB00610014B2C2 /* NetWork */,
-				234528861DDB00610014B2C2 /* Persistent */,
-				234528871DDB00610014B2C2 /* Tab2 */,
-				2345288C1DDB00610014B2C2 /* Tab3 */,
 				2345288D1DDB00610014B2C2 /* Utils */,
 			);
 			path = Classes;
-			sourceTree = "<group>";
-		};
-		234528761DDB00610014B2C2 /* Ad */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Ad;
 			sourceTree = "<group>";
 		};
 		2345287A1DDB00610014B2C2 /* HomePage */ = {
@@ -324,8 +309,6 @@
 		2345287D1DDB00610014B2C2 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				23E60CA01DDB026500FD24D2 /* ZDWHomeViewController.h */,
-				23E60CA11DDB026500FD24D2 /* ZDWHomeViewController.m */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -384,66 +367,6 @@
 			children = (
 			);
 			path = Views;
-			sourceTree = "<group>";
-		};
-		234528851DDB00610014B2C2 /* NetWork */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = NetWork;
-			sourceTree = "<group>";
-		};
-		234528861DDB00610014B2C2 /* Persistent */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Persistent;
-			sourceTree = "<group>";
-		};
-		234528871DDB00610014B2C2 /* Tab2 */ = {
-			isa = PBXGroup;
-			children = (
-				234528881DDB00610014B2C2 /* Models */,
-				234528891DDB00610014B2C2 /* Services */,
-				2345288A1DDB00610014B2C2 /* ViewControllers */,
-				2345288B1DDB00610014B2C2 /* Views */,
-			);
-			path = Tab2;
-			sourceTree = "<group>";
-		};
-		234528881DDB00610014B2C2 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		234528891DDB00610014B2C2 /* Services */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Services;
-			sourceTree = "<group>";
-		};
-		2345288A1DDB00610014B2C2 /* ViewControllers */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewControllers;
-			sourceTree = "<group>";
-		};
-		2345288B1DDB00610014B2C2 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		2345288C1DDB00610014B2C2 /* Tab3 */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Tab3;
 			sourceTree = "<group>";
 		};
 		2345288D1DDB00610014B2C2 /* Utils */ = {
@@ -676,7 +599,6 @@
 				234528111DDAE95D0014B2C2 /* main.m in Sources */,
 				23013C3D1DDEE2540015520D /* ZDWTabBarViewController.m in Sources */,
 				23E60CA51DDB028400FD24D2 /* ZDWMineUIViewController.m in Sources */,
-				23E60CA21DDB026500FD24D2 /* ZDWHomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
