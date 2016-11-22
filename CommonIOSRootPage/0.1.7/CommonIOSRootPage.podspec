@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
   #   'CommonIOSRootPage' => ['CommonIOSRootPage/Assets/*.png}']
   # }
 
-  s.prefix_header_contents = '#import <UIKit/UIKit.h>', '#import "ZDWExtentions.h"','#import "AppMacro.h"'
+  s.prefix_header_contents = '#import "ZDWExtentions.h"','#import "AppMacro.h"'
   # s.public_header_files = 'Pod/Classes/**/*.h'
   #s.frameworks = 'UIKit'
   # s.dependency 'AFNetworking', '~> 2.3'
