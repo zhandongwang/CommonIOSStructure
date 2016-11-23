@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   s.dependency "AFNetworking"
   s.dependency "CocoaSecurity"
   s.dependency "MBProgressHUD"
- # s.dependency 'CommonIOSComponentManager'
+  s.dependency 'CommonIOSComponentManager'
 
 
 end
