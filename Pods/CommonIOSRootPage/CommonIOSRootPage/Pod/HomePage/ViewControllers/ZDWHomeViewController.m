@@ -7,8 +7,8 @@
 //
 
 #import "ZDWHomeViewController.h"
-#import "UIColor+RGB.h"
-#import "AppMacro.h"
+//#import "ZDWExtentions.h"
+//#import "AppMacro.h"
 
 static NSString *const kTempKey = @"zdw://foo/keyword";
 
@@ -38,7 +38,7 @@ static NSString *const kTempKey = @"zdw://foo/keyword";
 
 - (void)customViewTapped:(UITapGestureRecognizer *)gestureRecognizer {
 
-    
+    NSLog(@"this is a test for upgrade");
 }
 
 - (UIView *)customView {

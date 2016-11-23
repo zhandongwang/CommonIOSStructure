@@ -15,8 +15,10 @@ target 'CommonStructure’ do
     pod 'CommonIOSAd', '~> 0.1.0'
 #    pod 'CommonIOSCore', :path => '~/Documents/Projects/CommonIOSPod/CommonIOSCore'
     pod 'CommonIOSCore', '~> 0.0.1'
-#pod 'CommonIOSRootPage', '~> 0.1.0'
-    pod 'CommonIOSRootPage', :path => '~/Documents/Projects/CommonIOSPod/CommonIOSRootPage'
+    pod 'CommonIOSRootPage', '~> 0.1.0'
+# pod 'CommonIOSRootPage', :path => '~/Documents/Projects/CommonIOSPod/CommonIOSRootPage'
+    pod 'CommonIOSNetworking', '~>0.0.1'
+# pod 'CommonIOSNetworking', :path => '~/Documents/Projects/CommonIOSPod/CommonIOSNetworking'
 
 end
                                                                                             
