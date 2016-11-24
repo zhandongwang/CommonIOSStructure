@@ -7,14 +7,12 @@
 //
 
 #import "ZDWHomeViewController.h"
-//#import "ZDWExtentions.h"
-//#import "AppMacro.h"
-
-static NSString *const kTempKey = @"zdw://foo/keyword";
+#import "ZDWHomePageRequest.h"
 
 @interface ZDWHomeViewController ()
 
 @property (nonatomic, strong) UIView *customView;
+@property (nonatomic, strong) ZDWHomePageRequest *request;
 
 @end
 
@@ -38,8 +36,8 @@ static NSString *const kTempKey = @"zdw://foo/keyword";
 
 - (void)customViewTapped:(UITapGestureRecognizer *)gestureRecognizer {
 
-    NSLog(@"this is a test for upgrade");
 }
+
 
 - (UIView *)customView {
     if (!_customView) {
@@ -48,15 +46,5 @@ static NSString *const kTempKey = @"zdw://foo/keyword";
     }
     return _customView ;
 }
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end

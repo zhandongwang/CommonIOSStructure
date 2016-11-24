@@ -85,11 +85,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23013C281DDEBE4A0015520D /* Security.framework in Frameworks */,
 				23013C341DDECB220015520D /* AdSupport.framework in Frameworks */,
 				23013C2E1DDEBECB0015520D /* libresolv.tbd in Frameworks */,
 				23013C2C1DDEBE6D0015520D /* UserNotifications.framework in Frameworks */,
 				23013C2A1DDEBE5D0015520D /* libz.tbd in Frameworks */,
-				23013C281DDEBE4A0015520D /* Security.framework in Frameworks */,
 				23013C261DDEBE3E0015520D /* UIKit.framework in Frameworks */,
 				23013C241DDEBE320015520D /* Foundation.framework in Frameworks */,
 				23013C221DDEBD810015520D /* CoreGraphics.framework in Frameworks */,
@@ -598,6 +598,7 @@
 			baseConfigurationReference = 19BA03661D6EAA881C932341 /* Pods-CommonStructure.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				DEVELOPMENT_TEAM = 2V9XE4LC4E;
 				INFOPLIST_FILE = CommonStructure/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -616,6 +617,7 @@
 			baseConfigurationReference = D4045AE7FD83AC2F36E2D974 /* Pods-CommonStructure.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				DEVELOPMENT_TEAM = 2V9XE4LC4E;
 				INFOPLIST_FILE = CommonStructure/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;

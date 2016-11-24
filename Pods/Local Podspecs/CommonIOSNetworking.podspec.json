@@ -1,0 +1,35 @@
+{
+  "name": "CommonIOSNetworking",
+  "version": "0.1.5",
+  "summary": "Common network access for ios app",
+  "description": "Common network access for ios app using AFNetworking",
+  "homepage": "https://github.com/zhandongwang/CommonIOSNetworking",
+  "license": "MIT",
+  "authors": {
+    "fengli": "fengli@2dfire.com"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "source": {
+    "git": "https://github.com/zhandongwang/CommonIOSNetworking.git",
+    "tag": "0.1.5"
+  },
+  "source_files": "Pod/Classes/**/*.{h,m}",
+  "requires_arc": true,
+  "frameworks": [
+    "UIKit",
+    "Foundation"
+  ],
+  "dependencies": {
+    "AFNetworking": [
+
+    ],
+    "CocoaSecurity": [
+
+    ],
+    "MBProgressHUD": [
+
+    ]
+  }
+}
